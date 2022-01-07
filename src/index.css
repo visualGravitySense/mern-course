@@ -18,6 +18,6 @@ code {
   width: 600px;
 }
 
-.rm {background: aquamarine;border-radius: 50%;}
+.rm {background: aquamarine;border-radius: 10%;}
 
 .done { text-decoration: line-through; }
