@@ -6,6 +6,7 @@ import AddTodo from "./Todo/AddTodo"
 import Loader from "./Loader"
 import {setSelectionRange} from "@testing-library/user-event/dist/utils";
 import Counter from "./components/Counter";
+import ClassCounter from "./components/ClassCounter";
 
 function App() {
     const [likes, setLikes] = useState(5)
@@ -15,11 +16,18 @@ function App() {
 
     return (
         <div className="App">
-            <Counter />
-            <Counter />
-            <Counter />
-            <Counter />
+            <div className="post">
+                <div className="post_content">
+                    <strong>1. Javascript</strong>
+                    <div className="">
+                        Javascript – Язык Программирования
+                    </div>
+                </div>
+                <div className="post__btns">
+                    <button>Удалить</button>
+                </div>
 
+            </div>
         </div>
     );
 
